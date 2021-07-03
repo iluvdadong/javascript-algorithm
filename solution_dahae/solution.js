@@ -122,7 +122,7 @@ function solution(a, b, c) {
   console.log(solution6_2(arr6)); // [256,41]
   
   // 7. 10부제
-  // 일의 자리 숫자를 보고 10부제 위반하는 차량의 대수 출력
+  // 일의 자리 숫자를 보고 1제 위반하는 차량의 대수 출력
   function solution7(arr) {
     let answer;
   
