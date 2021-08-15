@@ -14,7 +14,6 @@ function solution(scores) {
         newArray = [];
         for (let j = 0; j < scores.length; j++) {
             if (i === j) selfScore = scores[j][i];
-            console.log(`(${j}, ${i})`);
             newArray.push(scores[j][i]);
         }
         newArray.sort((a, b) => a - b);
